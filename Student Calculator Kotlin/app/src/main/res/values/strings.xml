@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Grade Calculator</string>
+    
+    <!-- Activities -->
+    <string name="student_list">Student List</string>
+    <string name="statistics">Statistics</string>
+    <string name="student_details">Student Details</string>
+    <string name="formula_settings">Formula Settings</string>
+    
+    <!-- Main Activity -->
+    <string name="welcome_title">Student Grade Calculator</string>
+    <string name="welcome_subtitle">Import Excel file to calculate student grades</string>
+    <string name="import_excel">Import Excel File</string>
+    <string name="view_students">View Students</string>
+    <string name="view_statistics">View Statistics</string>
+    <string name="formula_settings_btn">Formula Settings</string>
+    <string name="export_results">Export Results</string>
+    <string name="about_app">About</string>
+    
+    <!-- Student List -->
+    <string name="search_students">Search students…</string>
+    <string name="no_students">No students found</string>
+    <string name="import_file_first">Import an Excel file to get started</string>
+    <string name="student_count">%d Students</string>
+    
+    <!-- Student Details -->
+    <string name="student_id">Student ID</string>
+    <string name="student_name">Student Name</string>
+    <string name="ca_marks">CA Marks</string>
+    <string name="exam_marks">Exam Marks</string>
+    <string name="final_grade">Final Grade</string>
+    <string name="letter_grade">Letter Grade</string>
+    <string name="status">Status</string>
+    <string name="passing">PASSING</string>
+    <string name="failing">FAILING</string>
+    <string name="marks_breakdown">Marks Breakdown</string>
+    <string name="grade_calculation">Grade Calculation</string>
+    
+    <!-- Statistics -->
+    <string name="class_overview">Class Overview</string>
+    <string name="total_students">Total Students</string>
+    <string name="passing_students">Passing Students</string>
+    <string name="failing_students">Failing Students</string>
+    <string name="pass_rate">Pass Rate</string>
+    <string name="averages">Averages</string>
+    <string name="ca_average">CA Average</string>
+    <string name="exam_average">Exam Average</string>
+    <string name="final_average">Final Grade Average</string>
+    <string name="grade_range">Grade Range</string>
+    <string name="highest_grade">Highest Grade</string>
+    <string name="lowest_grade">Lowest Grade</string>
+    <string name="grade_distribution">Grade Distribution</string>
+    <string name="current_formula">Current Formula</string>
+    
+    <!-- Formula Settings -->
+    <string name="ca_weight">CA Weight</string>
+    <string name="exam_weight">Exam Weight</string>
+    <string name="formula_preview">Formula Preview</string>
+    <string name="save">Save</string>
+    <string name="reset_default">Reset to Default</string>
+    <string name="formula_info">Adjust the weights to customize how final grades are calculated. Weights must sum to 100%%.</string>
+    
+    <!-- Messages -->
+    <string name="file_imported">File imported successfully!</string>
+    <string name="import_error">Error importing file</string>
+    <string name="no_file_selected">No file selected</string>
+    <string name="permission_required">Storage permission is required to read Excel files</string>
+    <string name="formula_saved">Formula saved successfully!</string>
+    <string name="export_success">Results exported successfully!</string>
+    <string name="export_error">Error exporting results</string>
+    
+    <!-- About -->
+    <string name="about_text">Student Grade Calculator\n\nVersion 1.0\n\nCalculate student grades using CA marks and Exam marks with customizable formulas.\n\nDeveloped for educators to easily manage and analyze student performance.</string>
+    
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="close">Close</string>
+    <string name="loading">Loading…</string>
+</resources>
