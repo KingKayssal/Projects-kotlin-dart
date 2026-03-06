@@ -4,20 +4,18 @@ class Person {
 
   Person(this.name, this.age);
 
-  // Makes printing look nice
   @override
   String toString() => "${name}(${age})";
 }
 
 void main() {
-
   // Sample data from the lecture
   List<Person> people = [
-    Person("Alice",   25),
-    Person("Bob",     30),
+    Person("Alice", 25),
+    Person("Bob", 30),
     Person("Charlie", 35),
-    Person("Anna",    22),
-    Person("Ben",     28),
+    Person("Anna", 22),
+    Person("Ben", 28),
   ];
 
   print("All people:");
@@ -26,9 +24,7 @@ void main() {
 
   // STEP 1: Filter people whose name starts with A or B
   List<Person> filtered = people
-      .where((p) =>
-          p.name.startsWith("A") ||
-          p.name.startsWith("B"))
+      .where((p) => p.name.startsWith("A") || p.name.startsWith("B"))
       .toList();
 
   print("Filtered people (A or B):");

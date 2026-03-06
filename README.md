@@ -8,12 +8,74 @@ A comprehensive workspace containing multiple implementations of student grade m
 
 ```
 Projects kotlin & dart/
+├── Exercise1/                     # Higher-Order Functions & Predicates
+│   ├── exercise1.dart
+│   ├── Exercise1.kt
+│   └── README.md
+├── Exercise2/                     # Collection Transformations
+│   ├── exercise2.dart
+│   ├── Exercise2.kt
+│   └── README.md
+├── Exercise3/                     # Object Filtering & Aggregates
+│   ├── exercise3.dart
+│   ├── exercise3.kt
+│   └── README.md
 ├── GradeApp/                      # Android App (Kotlin/Compose)
 ├── StudentGradeApp/               # Android App (Kotlin/Compose)
 ├── student_calculator/            # Dart Console Application
 ├── student_grade_app/             # Flutter Multi-Platform App
 └── README.md                       # This file
 ```
+
+---
+
+## 🎯 Exercises Overview
+
+### **Exercise 1: Higher-Order Functions & Predicates**
+
+**Path**: `./Exercise1/`
+
+Demonstrates functional programming patterns using predicates and higher-order functions to filter lists dynamically.
+
+**Topics**: Higher-order functions, predicates, lambda expressions, functional filtering
+
+**Files**:
+- `exercise1.dart` - Dart implementation
+- `Exercise1.kt` - Kotlin implementation
+
+[📖 Full Documentation](./Exercise1/README.md)
+
+---
+
+### **Exercise 2: Transforming Between Collection Types**
+
+**Path**: `./Exercise2/`
+
+Explores converting between collection types (lists to maps) and filtering/processing data using both imperative and functional approaches.
+
+**Topics**: Collections, transformations, maps/dictionaries, forEach, filter, map operations
+
+**Files**:
+- `exercise2.dart` - Dart implementation
+- `Exercise2.kt` - Kotlin implementation
+
+[📖 Full Documentation](./Exercise2/README.md)
+
+---
+
+### **Exercise 3: Filtering Objects & Computing Aggregates**
+
+**Path**: `./Exercise3/`
+
+Combines object-oriented programming with functional operations to filter custom objects and compute statistical aggregates.
+
+**Topics**: Custom classes, object filtering, data extraction, reduction, aggregate calculations
+
+**Files**:
+- `exercise3.dart` - Dart implementation
+- `exercise3.kt` - Kotlin implementation
+
+[📖 Full Documentation](./Exercise3/README.md)
 
 ---
 
